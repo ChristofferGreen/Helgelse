@@ -1,0 +1,4 @@
+
+[submodule "submods/Forsoning"]
+	path = submods/Forsoning
+	url = git@github.com:ChristofferGreen/Forsoning.git
