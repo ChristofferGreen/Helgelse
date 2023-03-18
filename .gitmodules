@@ -5,3 +5,4 @@
 [submodule "submods/glfw"]
 	path = submods/glfw
 	url = git@github.com:glfw/glfw.git
+	branch = 3.3.8

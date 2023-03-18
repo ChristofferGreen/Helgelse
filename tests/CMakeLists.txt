@@ -1,6 +1,8 @@
 add_executable(HelgelseTest
   main.cpp
   catch.cpp
+  path_space_insert.cpp
+  basic_vulkan.cpp
 )
 
 target_include_directories(HelgelseTest 
@@ -28,4 +30,6 @@ target_link_libraries(HelgelseTest
     ${DepLibraries}
   PRIVATE
     Forsoning
+    glfw
+    Vulkan::Vulkan
 )
