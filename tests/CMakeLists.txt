@@ -1,3 +1,5 @@
+set(VK_LOADER_DEBUG "all")
+
 add_executable(HelgelseTest
   main.cpp
   catch.cpp
